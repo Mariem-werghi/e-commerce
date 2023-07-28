@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#efb4da; /* Add the background color here */
+    color:#efb4da;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+s
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 1rem;
+
+}
+
+header nav li a {
+    color: #f8bcca46;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 90%;
+}
+
+footer {
+    background-color: #333;
+    color:#efb4da;
+    text-align: center;
+    padding: 1rem;
+}
+.logo{
+    height: 300px;
+}
+.panier{
+    height: 50px;
+    width: 50x ;
+}
+
+#nav {
+    height:150px;
+    background-color:#f406a120;
+}
+
+.navItem {
+ padding-right: 30px;
+ font-size: large;
+
+} /* index.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#link1{
+    color: palevioletred ;
+}
+
+#test {
+    min-width: fit-content;
+
+}
+.img {
+    width: 300px;
+
+}
+.s{
+    color: black;
+}
+.btn btn-secondary dropdown-toggle
+{
+    color: bisque;
+
+
+}
+
+.dropbtn {
+  background-color: #efb4da;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .shopping-cart{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #2b822e;}
+

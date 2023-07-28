@@ -1,0 +1,33 @@
+#b1{
+    background-color:beige;
+ }
+ .img{
+    width: 350px;
+
+ }
+.img2{
+    width: 250px;
+
+    ;
+}
+/* Styling for the card container */
+.card {
+    width: 300x;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    transition: transform 0.3s ease; /* CSS transition for smooth animation */
+  }
+  
+  /* Styling for the card content */
+  .card-content {
+    padding: 20px;
+  }
+  
+  /* Hover effect to animate the card on hover */
+  .card:hover {
+    transform: scale(1.1); /* Scale up the card on hover */
+  }
+  
